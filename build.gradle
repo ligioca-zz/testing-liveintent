@@ -1,0 +1,18 @@
+group 'com.myproject.testframework'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    compile "org.gebish:geb-spock:2.0"
+    compile 'org.spockframework:spock-core:1.0-groovy-2.4'
+    compile "org.seleniumhq.selenium:selenium-java:3.6.0"
+    testCompile 'junit:junit:4.11'
+}
+

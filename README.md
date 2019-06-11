@@ -1,10 +1,8 @@
-# testing-liveintent
-
 ## Overall informartion
 
-Automation test project to cover the test case bellow:
+Automation test project to cover the test case:
 
-### Contact Us button should be present on Free Evaluation page
+*Contact Us button should be present on Free Evaluation page*
 
 Steps | Expected Result
 --------- | ------
@@ -13,6 +11,8 @@ User clicks on the 'Get Started' button    | The page https://liveintent.com/fre
 Verify the presence of CONTACT US button    | CONTACT US button should be present
 
 This project uses Gradle as build platform so the test can be executed using a regular `./gradlew clean test` execution on the command line. It is written in Groovy and uses Geb as test framework with Spock as BDD.
+It runs in chrome browser.
+
 
 ## Execution
 

@@ -6,11 +6,13 @@ Automation test project to cover the test case bellow:
 
 ### Contact Us button should be present on Free Evaluation page
 
+Steps | Expected Result
+--------- | ------
+User opens https://liveintent.com/     | 'Get Started' button is present on the page
+User clicks on the 'Get Started' button    | The page https://liveintent.com/free-evaluation/ is loaded
+Verify the presence of CONTACT US button    | CONTACT US button should be present
 
-
-1) User opens https://liveintent.com/ -> 'Get Started' button is present on the page
-2) User clicks on the 'Get Started' button -> The page https://liveintent.com/free-evaluation/ is loaded
-3) Verify the presence of CONTACT US button -> CONTACT US button should be present
+This project uses Gradle as build platform so the test can be executed using a regular `./gradlew clean test` execution on the command line. It is written in Groovy and uses Geb as test framework with Spock as BDD.
 
 ## Execution
 
